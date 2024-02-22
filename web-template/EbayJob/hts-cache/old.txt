@@ -1,0 +1,5 @@
+date	size'/'remotesize	flags(request:Update,Range state:File response:Modified,Chunked,gZipped)	statuscode	status ('servermsg')	MIME	Etag|Date	URL	localfile	(from URL)
+05:01:11	10113/10113	---MC-	403	error ('Forbidden')	text/html	date:Thu,%2022%20Feb%202024%2004:01:10%20GMT	http://harnishdesign.net/demo/opencart/moderns	E:/send/ebaysdk-python-master/EbayJob/harnishdesign.net/demo/opencart/moderns.0.delayed	(from )
+05:01:12	244/244	---M--	301	error ('Moved%20Permanently')	text/html	date:Thu,%2022%20Feb%202024%2004:01:12%20GMT	http://harnishdesign.net/robots.txt		(from )
+05:01:13	10117/10117	---MC-	403	error ('Forbidden')	text/html	date:Thu,%2022%20Feb%202024%2004:01:13%20GMT	https://harnishdesign.net/demo/opencart/moderns/	E:/send/ebaysdk-python-master/EbayJob/harnishdesign.net/demo/opencart/moderns/index.html	(from )
+05:01:13	10093/10093	---MC-	403	error ('Forbidden')	text/html	date:Thu,%2022%20Feb%202024%2004:01:13%20GMT	https://harnishdesign.net/robots.txt		(from )

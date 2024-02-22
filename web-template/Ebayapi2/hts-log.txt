@@ -1,0 +1,28 @@
+HTTrack3.49-2+htsswf+htsjava launched on Thu, 22 Feb 2024 05:10:46 at https://ethemestudio.com/demo/evani/index.html +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" https://ethemestudio.com/demo/evani/index.html -O1 "E:\send\ebaysdk-python-master\Ebayapi2" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+05:13:17	Error: 	"Not Found" (404) at link https://ethemestudio.com/demo/evani/webfonts/fa-brands-400.woff2 (from https://ethemestudio.com/demo/evani/css/awesome.min.css)
+05:13:17	Error: 	"Not Found" (404) at link https://ethemestudio.com/demo/evani/webfonts/fa-brands-400.ttf (from https://ethemestudio.com/demo/evani/css/awesome.min.css)
+05:13:17	Error: 	"Not Found" (404) at link https://ethemestudio.com/demo/evani/webfonts/fa-regular-400.woff2 (from https://ethemestudio.com/demo/evani/css/awesome.min.css)
+05:13:17	Error: 	"Not Found" (404) at link https://ethemestudio.com/demo/evani/webfonts/fa-regular-400.ttf (from https://ethemestudio.com/demo/evani/css/awesome.min.css)
+05:13:17	Error: 	"Not Found" (404) at link https://ethemestudio.com/demo/evani/webfonts/fa-solid-900.woff2 (from https://ethemestudio.com/demo/evani/css/awesome.min.css)
+05:13:17	Error: 	"Not Found" (404) at link https://ethemestudio.com/demo/evani/webfonts/fa-solid-900.ttf (from https://ethemestudio.com/demo/evani/css/awesome.min.css)
+05:13:17	Error: 	"Not Found" (404) at link https://ethemestudio.com/demo/evani/webfonts/fa-v4compatibility.woff2 (from https://ethemestudio.com/demo/evani/css/awesome.min.css)
+05:13:17	Error: 	"Not Found" (404) at link https://ethemestudio.com/demo/evani/webfonts/fa-v4compatibility.ttf (from https://ethemestudio.com/demo/evani/css/awesome.min.css)
+05:13:17	Error: 	"Not Found" (404) at link https://ethemestudio.com/demo/evani/css/images/layers.png (from https://ethemestudio.com/demo/evani/css/leaflet.css)
+05:13:17	Error: 	"Not Found" (404) at link https://ethemestudio.com/demo/evani/css/images/layers-2x.png (from https://ethemestudio.com/demo/evani/css/leaflet.css)
+05:13:17	Error: 	"Not Found" (404) at link https://ethemestudio.com/demo/evani/css/images/marker-icon.png (from https://ethemestudio.com/demo/evani/css/leaflet.css)
+05:13:17	Error: 	"Not Found" (404) at link https://ethemestudio.com/demo/evani/Version/ (from https://ethemestudio.com/demo/evani/js/swiper.js)
+05:13:17	Error: 	"Not Found" (404) at link https://ethemestudio.com/demo/evani/e (from https://ethemestudio.com/demo/evani/js/swiper.js)
+05:13:17	Error: 	"Not Found" (404) at link https://ethemestudio.com/demo/evani/t.params.url (from https://ethemestudio.com/demo/evani/js/swiper.js)
+05:13:17	Warning: 	Retry after error -5 (Unable to get server's address: No such host is known. ) at link {s}.tile.openstreetmap.org/{z}/{x}/{y}.png (from https://ethemestudio.com/demo/evani/js/script.js)
+05:13:17	Warning: 	Retry after error -5 (Unable to get server's address: unknown error) at link {s}.tile.openstreetmap.org/{z}/{x}/{y}.png (from https://ethemestudio.com/demo/evani/js/script.js)
+05:13:17	Error: 	"Unable to get server's address: unknown error" (-5) after 2 retries at link {s}.tile.openstreetmap.org/{z}/{x}/{y}.png (from https://ethemestudio.com/demo/evani/js/script.js)
+
+HTTrack Website Copier/3.49-2 mirror complete in 2 minutes 31 seconds : 501 links scanned, 483 files written (18369748 bytes overall) [16031522 bytes received at 106169 bytes/sec], 3370530 bytes transferred using HTTP compression in 51 files, ratio 23%, 62.2 requests per connection
+(15 errors, 2 warnings, 0 messages)

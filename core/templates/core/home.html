@@ -1,0 +1,770 @@
+{% extends 'base.html' %}
+{% load static %}
+
+
+{% block content %}
+
+
+<!-- HEADER-SECTION START  -->
+
+<header class="header-section">
+    <div class="header-wrapper">
+        <div class="mega-menu-wrapper mt-md-5">
+            <div class="container">
+                <div class="wrapper-items d-flex align-items-center">
+                    <!-- menu start here -->
+                    <div class="header-item item-left">
+                        <div class="menu-overlay">
+                        </div>
+                        <nav class="nav-menu">
+                            <div class="mobile-menu-head">
+                                <div class="go-back"><i class="fa fa-angle-left"></i></div>
+                                <div class="current-menu-title"></div>
+                                <div class="mobile-menu-close"><i class="fa-solid fa-x"></i></div>
+                            </div>
+                            <ul class="menu-items">
+                                <li class="menu-item-has-children">
+                                    <a href="#" class="nav-link  active ">Home <i class="fa fa-angle-down"></i></a>
+                                    <div class="sub-menu single-column-menu">
+                                        <ul>
+                                            <li><a href="index.html">Home One</a></li>
+                                            <li><a href="index_2.html">Home two</a></li>
+                                            <li><a href="index_3.html">Home three</a></li>
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li class="menu-item-has-children">
+                                    <a href="#" class="nav-link">Shop <i class="fa fa-angle-down"></i></a>
+                                    <div class="sub-menu mega-menu mega-menu-column-4">
+                                        <div class="list-item">
+                                              <h4 class="title">Men's Fashion</h4>
+                                              <ul>
+                                                   <li><a href="shop-with-sidebar.html">Men's T-Shirt</a></li>
+                                                   <li><a href="shop-with-sidebar.html">Men's Suit</a></li>
+                                                   <li><a href="shop-with-sidebar.html">Casual Shirts</a></li>
+                                                   <li><a href="shop-with-sidebar.html">Men's Jeans</a></li>
+                                                   <li><a href="shop-with-sidebar.html">Men's shoes</a></li>
+                                              </ul>
+                                              <h4 class="title">Men's Beauty</h4>
+                                              <ul>
+                                                   <li><a href="shop-with-sidebar.html">Face Care</a></li>
+                                                   <li><a href="shop-with-sidebar.html">Hair care</a></li>
+                                                   <li><a href="shop-with-sidebar.html">Body care</a></li>
+                                              </ul>
+                                        </div>
+                                        <div class="list-item">
+                                            <h4 class="title">Women's Fashion</h4>
+                                            <ul>
+                                                   <li><a href="shop-with-sidebar.html">Night Gown</a></li>
+                                                   <li><a href="shop-with-sidebar.html">Soft Towel</a></li>
+                                                   <li><a href="shop-with-sidebar.html">Fashion Dress</a></li>
+                                                   <li><a href="shop-with-sidebar.html">Women's Bag</a></li>
+                                              </ul>
+                                              <h4 class="title">Women's Beauty</h4>
+                                            <ul>
+                                                  <li><a href="shop-with-sidebar.html">Face Care</a></li>
+                                                  <li><a href="shop-with-sidebar.html">Lip Make-up</a></li>
+                                                  <li><a href="shop-with-sidebar.html">Hand care</a></li>
+                                                  <li><a href="shop-with-sidebar.html">Cross-body Bags</a></li>
+                                              </ul>
+                                        </div>
+                                        <div class="list-item">
+                                            <h4 class="title">Home, Kitchen</h4>
+                                            <ul>
+                                                   <li><a href="shop-with-sidebar.html">Kitchen Appliances</a></li>
+                                                   <li><a href="shop-with-sidebar.html">Lights & Electrical</a></li>
+                                                   <li><a href="shop-with-sidebar.html">Basket & Bucket</a></li>
+                                                   <li><a href="shop-with-sidebar.html">Kitchen Accessories</a></li>
+                                                   <li><a href="shop-with-sidebar.html">Box & Container</a></li>
+                                                   <li><a href="shop-with-sidebar.html">Disposables</a></li>
+                                                   <li><a href="shop-with-sidebar.html">Rack & Organizer</a></li>
+                                                   <li><a href="shop-with-sidebar.html">Gardening</a></li>
+                                              </ul>
+                                        </div>
+                                        <div class="list-item">
+                                             <img src="images/header/shop/shape-1.png" alt="header">
+                                        </div>
+                                      </div>
+                                </li>
+                                <li class="menu-item-has-children">
+                                    <a href="#" class="nav-link">Collections <i class="fa fa-angle-down"></i></a>
+                                    <div class="sub-menu mega-menu mega-menu-column-4">
+                                        <div class="list-item text-center">
+                                            <a href="collections.html">
+                                            <img src="images/header/collection/shape-1.png" alt="header">
+                                            <h4 class="title">Men's T-Shirt</h4>
+                                            </a>
+                                        </div>
+                                        <div class="list-item text-center">
+                                            <a href="collections.html">
+                                                <img src="images/header/collection/shape-2.png" alt="header">
+                                            <h4 class="title">Women's Bag</h4>
+                                            </a>
+                                        </div>
+                                        <div class="list-item text-center">
+                                            <a href="collections.html">
+                                                <img src="images/header/collection/shape-3.png" alt="header">
+                                            <h4 class="title">Ball Gown</h4>
+                                            </a>
+                                        </div>
+                                        <div class="list-item text-center">
+                                            <a href="collections.html">
+                                                <img src="images/header/collection/shape-4.png" alt="header">
+                                            <h4 class="title">Night Gown</h4>
+                                           </a>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="menu-item-has-children">
+                                    <a href="#" class="nav-link">Pages <i class="fas fa-angle-down"></i></a>
+                                    <div class="sub-menu mega-menu mega-menu-column-4">
+                                        <div class="list-item">
+                                              <h4 class="title">Home Page</h4>
+                                              <ul>
+                                                  <li><a href="index.html">Home One</a></li>
+                                                  <li><a href="index_2.html">Home Two</a></li>
+                                                  <li><a href="index_3.html">Home Three</a></li>
+                                              </ul>
+                                              <h4 class="title">Shop Page</h4>
+                                            <ul>
+                                                <li><a href="shop.html">Shop</a></li>
+                                                <li><a href="shop-with-sidebar.html">Shop With Sidebar</a></li>
+                                                <li><a href="shopping-cart.html">Shopping Cart</a></li>
+                                            </ul>
+                                        </div>
+                                        <div class="list-item">
+                                            <h4 class="title">Collection Page</h4>
+                                            <ul>
+                                                   <li><a href="collections.html">Collections</a></li>
+                                                   <li><a href="all-collections.html">All Collections</a></li>
+                                              </ul>
+                                              <h4 class="title">Product Page</h4>
+                                            <ul>
+                                                  <li><a href="single-product.html">Single Product</a></li>
+                                                  <li><a href="checkout.html">Checkout</a></li>
+                                                  <li><a href="wishlist.html">Wishlist</a></li>
+                                              </ul>
+                                        </div>
+                                        <div class="list-item">
+                                            <h4 class="title">Blog Page</h4>
+                                            <ul>
+                                                <li><a href="recent-blog.html">Recent Blog</a></li>
+                                                <li><a href="recent-blog-two.html">Recent Blog Two</a></li>
+                                                <li><a href="single-blog.html">Single Blog</a></li>
+                                            </ul>
+                                        </div>
+                                        <div class="list-item">
+                                            <img src="images/header/product/shape-1.png" alt="header">
+                                       </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <a href="contact-us.html">Contact</a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <!-- menu end here -->
+                    <div class="header-item item-right">
+                        <a href="#"><i class="fa-solid fa-headset"></i>Help & Support</a>
+                        <div class="mobile-menu-trigger">
+                            <span></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+<!-- HEADER-SECTION END  -->
+
+
+
+
+
+<!-- CATAGORIES-SECTION START  -->
+
+<section class="categories-section">
+    <div class="container">
+        <div class="ev-top-content">
+            <span>Explore them all</span>
+            <h2>Top Categories</h2>
+            <p>Found what you like?</p>
+        </div>
+        <div class="categories-grid">
+            <div class="single-categorie">
+                <a href="shop-with-sidebar.html" class="categorie-link">
+                    <div class="categorie-img">
+                        <img src="{% static 'images/index-1/categories/shape-1.png' %}" alt="categories">
+                    </div>
+                    <div class="categorie-text">
+                        <h5>Men</h5>
+                        <span>105 items</span>
+                    </div>
+                </a>
+            </div>
+            <div class="single-categorie">
+                <a href="shop-with-sidebar.html" class="categorie-link">
+                    <div class="categorie-img">
+                        <img src="{% static 'images/index-1/categories/shape-2.png' %}" alt="categories">
+                    </div>
+                    <div class="categorie-text">
+                        <h5>Women</h5>
+                        <span>520 items</span>
+                    </div>
+                </a>
+            </div>
+            <div class="single-categorie">
+                <a href="shop-with-sidebar.html" class="categorie-link">
+                    <div class="categorie-img">
+                        <img src="{% static 'images/index-1/categories/shap' %}e-3.png" alt="">
+                    </div>
+                    <div class="categorie-text">
+                        <h5>Kids</h5>
+                        <span>340 items</span>
+                    </div>
+                </a>
+            </div>
+            <div class="single-categorie">
+                <a href="shop-with-sidebar.html" class="categorie-link">
+                    <div class="categorie-img">
+                        <img src="{% static 'images/index-1/categories/shape-4.png' %}" alt="categories">
+                    </div>
+                    <div class="categorie-text">
+                        <h5>Accessories</h5>
+                        <span>530 items</span>
+                    </div>
+                </a>
+            </div>
+            <div class="single-categorie">
+                <a href="shop-with-sidebar.html" class="categorie-link">
+                    <div class="categorie-img">
+                        <img src="{% static 'images/index-1/categories/shap' %}e-5.png" alt="">
+                    </div>
+                    <div class="categorie-text">
+                        <h5>Cloths</h5>
+                        <span>105 items</span>
+                    </div>
+                </a>
+            </div>
+            <div class="single-categorie">
+                <a href="shop-with-sidebar.html" class="categorie-link">
+                    <div class="categorie-img">
+                        <img src="{% static 'images/index-1/categories/shape-6.png' %}" alt="categories">
+                    </div>
+                    <div class="categorie-text">
+                        <h5>Beauty</h5>
+                        <span>105 items</span>
+                    </div>
+                </a>
+            </div>
+            <div class="single-categorie">
+                <a href="#" class="categorie-link">
+                    <div class="categorie-img">
+                        <img src="{% static 'images/index-1/categories/shape-7.png' %}" alt="categories">
+                    </div>
+                    <div class="categorie-text">
+                        <h5>Showes</h5>
+                        <span>525 items</span>
+                    </div>
+                </a>
+            </div>
+            <div class="single-categorie">
+                <a href="shop-with-sidebar.html" class="categorie-link">
+                    <div class="categorie-img">
+                        <img src="{% static 'images/index-1/categories/shape-8.png' %}" alt="categories">
+                    </div>
+                    <div class="categorie-text">
+                        <h5>Jewellery</h5>
+                        <span>105 items</span>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <a href="shop-with-sidebar.html" class="view-all">View All</a>
+    </div>
+</section>
+
+<!-- CATAGORIES-SECTION END  -->
+
+
+
+
+<!-- PRODUCT-SECTION START  -->
+
+<section class="product-section">
+    <div class="container">
+        <div class="ev-top-content">
+            <span>Get Your’s One</span>
+            <h2>Products Are on Sale</h2>
+            <div class="search-form">
+                <form class="search-product d-flex align-items-center justify-content-between" id="search-product" action="{% url 'core:search' %}" method="GET">
+                    <input type="text" class="form-control" name="query_string" placeholder="Type to search i.e “sunglass”...">
+                    <button type="submit">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </button>
+                </form>
+            </div>
+        </div>
+        <div class="menu-fulter">
+            <ul class=" justify-content-center nav nav-tabs" id="myTab" role="tablist">
+                <li class="nav-item" role="presentation"><a href="#" class="nav-link active" id="pills-home-tab" data-bs-toggle="tab" data-bs-target="#pills-home" role="tab" aria-selected="true">Recent Listed</a></li>
+                <li class="nav-item" role="presentation"><a href="#" class="nav-link" id="pills-profile-tab" data-bs-toggle="tab" data-bs-target="#pills-profile" role="tab" aria-selected="true">Popular Pets</a></li>
+                <li class="nav-item" role="presentation"><a href="#" class="nav-link " id="pills-contact-tab" data-bs-toggle="tab" data-bs-target="#pills-contact" role="tab" aria-selected="true">Top Featured</a></li>
+            </ul>
+        </div>
+        <div class="tab-content" id="pills-tabContent">
+            <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+                <div class="products ev-products">
+                    {% for product in someitems %}
+                    <div class="product">
+                        <div class="product-img">
+                            <a href="{% url 'core:detail' product_id=product.productId %}">
+                                <img src="{{ product.galleryURL }}" alt="product">
+                            </a>
+                            <!-- <div class="product-labels d-flex justify-content-between">
+                                <span class="ev-offer">-51%</span>
+                            </div> -->
+                            <div class="p-option">
+                                <ul class="d-flex align-items-center justify-content-end">
+                                    <li class="anim-hidden"><a href="#"><i class="fa-regular fa-eye"></i></a></li>
+                                    <li class="anim-hidden"><a href="#"><i class="fa-solid fa-heart"></i></a></li>
+                                    <li class="anim-hidden"><a href="#"><i class="fa-solid fa-cart-shopping"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="product-text">
+                            {% if product.isTopRated %}
+                            <ul class="product-stars d-flex">
+                                <li> <span class="badge badge-primary h6"><i class="fa-sharp fa-solid fa-star"> Top Rated</i></span></i></li>
+                            </ul>
+                            {% endif %}
+                            <h2 class="product-title"><a href="{% url 'core:detail' product_id=product.productId %}">{{ product.title }}</a></h2>
+                            <p class="text-muted">
+                                Selling from {{ product.location }} <br>
+                                {{ product.subtitle }} <br>
+                                {{ product.condition }}
+                            </p>
+                            <ul class="d-flex align-items-center">
+                                <li><span>{{ product.sellingPrice }}</span></li>
+                                <!-- <li><span>$200</span></li> -->
+                            </ul>
+                            {# <pre><code>{{ product.dict }}</code></pre> #}
+                        </div>
+                    </div>
+                    {% endfor %}
+                </div>
+            </div>
+            <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+                <div class="products ev-products">
+                    <div class="product">
+                        <div class="product-img">
+                            <a href="single-product.html">
+                                <img src="{% static 'images/index-1/products/popular/shape-1.png' %}" alt="product">
+                            </a>
+                            <div class="product-labels d-flex justify-content-between">
+                                <span class="ev-offer">-51%</span>
+                                <span class="ev-hot">hot</span>
+                            </div>
+                            <div class="p-option">
+                                <ul class="d-flex align-items-center justify-content-end">
+                                    <li class="anim-hidden"><a href="#"><i class="fa-regular fa-eye"></i></a></li>
+                                    <li class="anim-hidden"><a href="#"><i class="fa-solid fa-heart"></i></a></li>
+                                    <li class="anim-hidden"><a href="#"><i class="fa-solid fa-cart-shopping"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="product-text">
+                            <ul class="product-stars d-flex">
+                                <li><i class="fa-sharp fa-solid fa-star"></i></li>
+                                <li><i class="fa-sharp fa-solid fa-star"></i></li>
+                                <li><i class="fa-sharp fa-solid fa-star"></i></li>
+                                <li><i class="fa-sharp fa-solid fa-star"></i></li>
+                                <li><i class="fa-sharp fa-solid fa-star"></i></li>
+                            </ul>
+                                <h2 class="product-title"><a href="single-product.html">polo shirt for men</a></h2>
+                            <ul class="d-flex align-items-center">
+                                <li><span>$99</span></li>
+                                <li><span>$200</span></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <div class="product-img">
+                            <a href="single-product.html">
+                                <img src="{% static 'images/index-1/products/popular/shape-2.png' %}" alt="product">
+                            </a>
+                            <div class="product-labels d-flex justify-content-between">
+                                <span class="ev-hot">hot</span>
+                            </div>
+                            <div class="p-option">
+                                <ul class="d-flex align-items-center justify-content-end">
+                                    <li class="anim-hidden"><a href="#"><i class="fa-regular fa-eye"></i></a></li>
+                                    <li class="anim-hidden"><a href="#"><i class="fa-solid fa-heart"></i></a></li>
+                                    <li class="anim-hidden"><a href="#"><i class="fa-solid fa-cart-shopping"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="product-text">
+                            <ul class="product-stars d-flex">
+                                <li><i class="fa-sharp fa-solid fa-star"></i></li>
+                                <li><i class="fa-sharp fa-solid fa-star"></i></li>
+                                <li><i class="fa-sharp fa-solid fa-star"></i></li>
+                                <li><i class="fa-sharp fa-solid fa-star"></i></li>
+                                <li><i class="fa-sharp fa-solid fa-star"></i></li>
+                            </ul>
+                            <h2 class="product-title"><a href="single-product.html">Girls night gown</a></h2>
+                            <ul class="d-flex align-items-center">
+                                <li><span>$99</span></li>
+                                <li><span>$200</span></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <div class="product-img">
+                            <a href="single-product.html">
+                                <img src="{% static 'images/index-1/products/popular/shape-3.png' %}" alt="product">
+                            </a>
+                            <div class="p-option">
+                                <ul class="d-flex align-items-center justify-content-end">
+                                    <li class="anim-hidden"><a href="#"><i class="fa-regular fa-eye"></i></a></li>
+                                    <li class="anim-hidden"><a href="#"><i class="fa-solid fa-heart"></i></a></li>
+                                    <li class="anim-hidden"><a href="#"><i class="fa-solid fa-cart-shopping"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="product-text">
+                            <ul class="product-stars d-flex">
+                                <li><i class="fa-sharp fa-solid fa-star"></i></li>
+                                <li><i class="fa-sharp fa-solid fa-star"></i></li>
+                                <li><i class="fa-sharp fa-solid fa-star"></i></li>
+                                <li><i class="fa-sharp fa-solid fa-star"></i></li>
+                                <li><i class="fa-sharp fa-solid fa-star"></i></li>
+                            </ul>
+                            <h2 class="product-title"><a href="single-product.html">Mens stylish T-shirt</a></h2>
+                            <ul class="d-flex align-items-center">
+                                <li><span>$99</span></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <div class="product-img">
+                            <a href="single-product.html">
+                                <img src="{% static 'images/index-1/products/popular/shape-4.png' %}" alt="product">
+                            </a>
+                            <div class="product-labels d-flex justify-content-between">
+                                <span class="ev-offer">-51%</span>
+                            </div>
+                            <div class="p-option">
+                                <ul class="d-flex align-items-center justify-content-end">
+                                    <li class="anim-hidden"><a href="#"><i class="fa-regular fa-eye"></i></a></li>
+                                    <li class="anim-hidden"><a href="#"><i class="fa-solid fa-heart"></i></a></li>
+                                    <li class="anim-hidden"><a href="#"><i class="fa-solid fa-cart-shopping"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="product-text">
+                            <ul class="product-stars d-flex">
+                                <li><i class="fa-sharp fa-solid fa-star"></i></li>
+                                <li><i class="fa-sharp fa-solid fa-star"></i></li>
+                                <li><i class="fa-sharp fa-solid fa-star"></i></li>
+                                <li><i class="fa-sharp fa-solid fa-star"></i></li>
+                                <li><i class="fa-sharp fa-solid fa-star"></i></li>
+                            </ul>
+                            <h2 class="product-title"><a href="single-product.html">Simple soft towel</a></h2>
+                            <ul class="d-flex align-items-center">
+                                <li><span>$99</span></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <div class="product-img">
+                            <a href="single-product.html">
+                                <img src="{% static 'images/index-1/products/popular/shape-5.png' %}" alt="product">
+                            </a>
+                            <div class="product-labels d-flex justify-content-between">
+                                <span class="ev-hot">hot</span>
+                            </div>
+                            <div class="p-option">
+                                <ul class="d-flex align-items-center justify-content-end">
+                                    <li class="anim-hidden"><a href="#"><i class="fa-regular fa-eye"></i></a></li>
+                                    <li class="anim-hidden"><a href="#"><i class="fa-solid fa-heart"></i></a></li>
+                                    <li class="anim-hidden"><a href="#"><i class="fa-solid fa-cart-shopping"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="product-text">
+                            <ul class="product-stars d-flex">
+                                <li><i class="fa-sharp fa-solid fa-star"></i></li>
+                                <li><i class="fa-sharp fa-solid fa-star"></i></li>
+                                <li><i class="fa-sharp fa-solid fa-star"></i></li>
+                                <li><i class="fa-sharp fa-solid fa-star"></i></li>
+                                <li><i class="fa-sharp fa-solid fa-star"></i></li>
+                            </ul>
+                                <h2 class="product-title"><a href="single-product.html">polo shirt for men</a></h2>
+                            <ul class="d-flex align-items-center">
+                                <li><span>$99</span></li>
+                                <li><span>$200</span></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <div class="product-img">
+                            <a href="single-product.html">
+                                <img src="{% static 'images/index-1/products/popular/shape-6.png' %}" alt="product">
+                            </a>
+                            <div class="product-labels d-flex justify-content-between">
+                                <span class="ev-offer">-51%</span>
+                                <span class="ev-hot">hot</span>
+                            </div>
+                            <div class="p-option">
+                                <ul class="d-flex align-items-center justify-content-end">
+                                    <li class="anim-hidden"><a href="#"><i class="fa-regular fa-eye"></i></a></li>
+                                    <li class="anim-hidden"><a href="#"><i class="fa-solid fa-heart"></i></a></li>
+                                    <li class="anim-hidden"><a href="#"><i class="fa-solid fa-cart-shopping"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="product-text">
+                            <ul class="product-stars d-flex">
+                                <li><i class="fa-sharp fa-solid fa-star"></i></li>
+                                <li><i class="fa-sharp fa-solid fa-star"></i></li>
+                                <li><i class="fa-sharp fa-solid fa-star"></i></li>
+                                <li><i class="fa-sharp fa-solid fa-star"></i></li>
+                                <li><i class="fa-sharp fa-solid fa-star"></i></li>
+                            </ul>
+                            <h2 class="product-title"><a href="single-product.html">Girls night gown</a></h2>
+                            <ul class="d-flex align-items-center">
+                                <li><span>$99</span></li>
+                                <li><span>$200</span></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">
+                <div class="products ev-products">
+                    <div class="product">
+                        <div class="product-img">
+                            <a href="single-product.html">
+                                <img src="{% static 'images/index-1/products/top/shape-1.png' %}" alt="product">
+                            </a>
+                            <div class="product-labels d-flex justify-content-between">
+                                <span class="ev-offer">-51%</span>
+                                <span class="ev-hot">hot</span>
+                            </div>
+                            <div class="p-option">
+                                <ul class="d-flex align-items-center justify-content-end">
+                                    <li class="anim-hidden"><a href="#"><i class="fa-regular fa-eye"></i></a></li>
+                                    <li class="anim-hidden"><a href="#"><i class="fa-solid fa-heart"></i></a></li>
+                                    <li class="anim-hidden"><a href="#"><i class="fa-solid fa-cart-shopping"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="product-text">
+                            <ul class="product-stars d-flex">
+                                <li><i class="fa-sharp fa-solid fa-star"></i></li>
+                                <li><i class="fa-sharp fa-solid fa-star"></i></li>
+                                <li><i class="fa-sharp fa-solid fa-star"></i></li>
+                                <li><i class="fa-sharp fa-solid fa-star"></i></li>
+                                <li><i class="fa-sharp fa-solid fa-star"></i></li>
+                            </ul>
+                            <h2 class="product-title"><a href="single-product.html">Mens stylish T-shirt</a></h2>
+                            <ul class="d-flex align-items-center">
+                                <li><span>$99</span></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <div class="product-img">
+                            <a href="single-product.html">
+                                <img src="{% static 'images/index-1/products/top/shape-2.png' %}" alt="product">
+                            </a>
+                            <div class="p-option">
+                                <ul class="d-flex align-items-center justify-content-end">
+                                    <li class="anim-hidden"><a href="#"><i class="fa-regular fa-eye"></i></a></li>
+                                    <li class="anim-hidden"><a href="#"><i class="fa-solid fa-heart"></i></a></li>
+                                    <li class="anim-hidden"><a href="#"><i class="fa-solid fa-cart-shopping"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="product-text">
+                            <ul class="product-stars d-flex">
+                                <li><i class="fa-sharp fa-solid fa-star"></i></li>
+                                <li><i class="fa-sharp fa-solid fa-star"></i></li>
+                                <li><i class="fa-sharp fa-solid fa-star"></i></li>
+                                <li><i class="fa-sharp fa-solid fa-star"></i></li>
+                                <li><i class="fa-sharp fa-solid fa-star"></i></li>
+                            </ul>
+                            <h2 class="product-title"><a href="single-product.html">Simple soft towel</a></h2>
+                            <ul class="d-flex align-items-center">
+                                <li><span>$99</span></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <div class="product-img">
+                            <a href="single-product.html">
+                                <img src="{% static 'images/index-1/products/top/shape-3.png' %}" alt="product">
+                            </a>
+                            <div class="product-labels d-flex justify-content-between">
+                                <span class="ev-hot">hot</span>
+                            </div>
+                            <div class="p-option">
+                                <ul class="d-flex align-items-center justify-content-end">
+                                    <li class="anim-hidden"><a href="#"><i class="fa-regular fa-eye"></i></a></li>
+                                    <li class="anim-hidden"><a href="#"><i class="fa-solid fa-heart"></i></a></li>
+                                    <li class="anim-hidden"><a href="#"><i class="fa-solid fa-cart-shopping"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="product-text">
+                            <ul class="product-stars d-flex">
+                                <li><i class="fa-sharp fa-solid fa-star"></i></li>
+                                <li><i class="fa-sharp fa-solid fa-star"></i></li>
+                                <li><i class="fa-sharp fa-solid fa-star"></i></li>
+                                <li><i class="fa-sharp fa-solid fa-star"></i></li>
+                                <li><i class="fa-sharp fa-solid fa-star"></i></li>
+                            </ul>
+                                <h2 class="product-title"><a href="single-product.html">polo shirt for men</a></h2>
+                            <ul class="d-flex align-items-center">
+                                <li><span>$99</span></li>
+                                <li><span>$200</span></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <div class="product-img">
+                            <a href="single-product.html">
+                                <img src="{% static 'images/index-1/products/top/shape-4.png' %}" alt="product">
+                            </a>
+                            <div class="product-labels d-flex justify-content-between">
+                                <span class="ev-hot">hot</span>
+                            </div>
+                            <div class="p-option">
+                                <ul class="d-flex align-items-center justify-content-end">
+                                    <li class="anim-hidden"><a href="#"><i class="fa-regular fa-eye"></i></a></li>
+                                    <li class="anim-hidden"><a href="#"><i class="fa-solid fa-heart"></i></a></li>
+                                    <li class="anim-hidden"><a href="#"><i class="fa-solid fa-cart-shopping"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="product-text">
+                            <ul class="product-stars d-flex">
+                                <li><i class="fa-sharp fa-solid fa-star"></i></li>
+                                <li><i class="fa-sharp fa-solid fa-star"></i></li>
+                                <li><i class="fa-sharp fa-solid fa-star"></i></li>
+                                <li><i class="fa-sharp fa-solid fa-star"></i></li>
+                                <li><i class="fa-sharp fa-solid fa-star"></i></li>
+                            </ul>
+                            <h2 class="product-title"><a href="single-product.html">Girls night gown</a></h2>
+                            <ul class="d-flex align-items-center">
+                                <li><span>$99</span></li>
+                                <li><span>$200</span></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <div class="product-img">
+                            <a href="single-product.html">
+                                <img src="{% static 'images/index-1/products/top/shape-5.png' %}" alt="product">
+                            </a>
+                            <div class="p-option">
+                                <ul class="d-flex align-items-center justify-content-end">
+                                    <li class="anim-hidden"><a href="#"><i class="fa-regular fa-eye"></i></a></li>
+                                    <li class="anim-hidden"><a href="#"><i class="fa-solid fa-heart"></i></a></li>
+                                    <li class="anim-hidden"><a href="#"><i class="fa-solid fa-cart-shopping"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="product-text">
+                            <ul class="product-stars d-flex">
+                                <li><i class="fa-sharp fa-solid fa-star"></i></li>
+                                <li><i class="fa-sharp fa-solid fa-star"></i></li>
+                                <li><i class="fa-sharp fa-solid fa-star"></i></li>
+                                <li><i class="fa-sharp fa-solid fa-star"></i></li>
+                                <li><i class="fa-sharp fa-solid fa-star"></i></li>
+                            </ul>
+                            <h2 class="product-title"><a href="single-product.html">Mens stylish T-shirt</a></h2>
+                            <ul class="d-flex align-items-center">
+                                <li><span>$99</span></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <div class="product-img">
+                            <a href="single-product.html">
+                                <img src="{% static 'images/index-1/products/top/shape-6.png' %}" alt="product">
+                            </a>
+                            <div class="product-labels d-flex justify-content-between">
+                                <span class="ev-offer">-51%</span>
+                            </div>
+                            <div class="p-option">
+                                <ul class="d-flex align-items-center justify-content-end">
+                                    <li class="anim-hidden"><a href="#"><i class="fa-regular fa-eye"></i></a></li>
+                                    <li class="anim-hidden"><a href="#"><i class="fa-solid fa-heart"></i></a></li>
+                                    <li class="anim-hidden"><a href="#"><i class="fa-solid fa-cart-shopping"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="product-text">
+                            <ul class="product-stars d-flex">
+                                <li><i class="fa-sharp fa-solid fa-star"></i></li>
+                                <li><i class="fa-sharp fa-solid fa-star"></i></li>
+                                <li><i class="fa-sharp fa-solid fa-star"></i></li>
+                                <li><i class="fa-sharp fa-solid fa-star"></i></li>
+                                <li><i class="fa-sharp fa-solid fa-star"></i></li>
+                            </ul>
+                            <h2 class="product-title"><a href="single-product.html">Simple soft towel</a></h2>
+                            <ul class="d-flex align-items-center">
+                                <li><span>$99</span></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+          </div>
+        <a href="shop-with-sidebar.html" class="view-all">View All</a>
+    </div>
+</section>
+
+<!-- PRODUCT-SECTION END  -->
+
+
+
+
+<!--    FEATURED-PRODUCT-SECTION START  -->
+
+<section class="featured-product-section">
+    <div class="container">
+        <div class="row">
+            <div class="col-xl-6 col-lg-7 col-md-7 col-12 d-flex align-items-center">
+                <div class="pr-featured-left">
+                    <h6>50% Discount Running</h6>
+                    <h2>Double Protection Face Mask</h2>
+                    <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+                    Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit</p>
+                    <ul class="d-flex align-items-center">
+                        <li><span>$5</span></li>
+                        <li><span>$10</span></li>
+                    </ul>
+                    <div class="btn_box">
+                        <a href="#">Buy Now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-6 col-lg-5 col-md-5 col-12 ">
+                <div class="pr-featured-right d-flex align-items-center justify-content-lg-end justify-content-center">
+                    <div class="pr-featured-img featured-img1">
+                        <img src="{% static 'images/index-1/featured/shape-1.png' %}" alt="featured">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--    FEATURED-PRODUCT-SECTION END  -->
+
+{% endblock %}

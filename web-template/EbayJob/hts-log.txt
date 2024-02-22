@@ -1,0 +1,19 @@
+HTTrack3.49-2+htsswf+htsjava launched on Thu, 22 Feb 2024 05:03:55 at http://harnishdesign.net/demo/opencart/moderns/2/ http://harnishdesign.net/demo/opencart/moderns/2/index.html http://harnishdesign.net/demo/opencart/moderns/2/index.php http://harnishdesign.net/demo/opencart/moderns/index.php http://harnishdesign.net/demo/opencart/moderns/index.html +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qiC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" http://harnishdesign.net/demo/opencart/moderns/2/ http://harnishdesign.net/demo/opencart/moderns/2/index.html http://harnishdesign.net/demo/opencart/moderns/2/index.php http://harnishdesign.net/demo/opencart/moderns/index.php http://harnishdesign.net/demo/opencart/moderns/index.html -O1 "E:\send\ebaysdk-python-master\EbayJob" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+05:04:06	Warning: 	Moved Permanently for harnishdesign.net/robots.txt
+05:04:06	Warning: 	Redirected link is identical because of 'URL Hack' option: harnishdesign.net/robots.txt and https://harnishdesign.net/robots.txt
+05:04:06	Warning: 	Warning moved treated for harnishdesign.net/robots.txt (real one is https://harnishdesign.net/robots.txt)
+05:04:06	Error: 	"Forbidden" (403) at link harnishdesign.net/demo/opencart/moderns/2/ (from primary/primary)
+05:04:06	Error: 	"Forbidden" (403) at link harnishdesign.net/demo/opencart/moderns/2/index.html (from primary/primary)
+05:04:06	Error: 	"Forbidden" (403) at link harnishdesign.net/demo/opencart/moderns/2/index.php (from primary/primary)
+05:04:06	Error: 	"Forbidden" (403) at link harnishdesign.net/demo/opencart/moderns/index.php (from primary/primary)
+05:04:06	Error: 	"Forbidden" (403) at link harnishdesign.net/demo/opencart/moderns/index.html (from primary/primary)
+
+HTTrack Website Copier/3.49-2 mirror complete in 11 seconds : 6 links scanned, 0 files written (0 bytes overall), no files updated [53269 bytes received at 4842 bytes/sec]
+(5 errors, 3 warnings, 0 messages)
